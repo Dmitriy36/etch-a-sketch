@@ -29,7 +29,6 @@ function createGrid(dimension=16) {
 }
 
 function chooseSize() {
-    alert('chooseSize function called');
     gridSize = parseInt(prompt("Enter grid size (4 - 100)"));
     if(gridSize <=100 && gridSize >=4){
         removeAllChildren(gridDiv);
